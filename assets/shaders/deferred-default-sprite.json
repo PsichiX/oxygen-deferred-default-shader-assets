@@ -1,0 +1,43 @@
+{
+  "vertex": "shaders/deferred-default-sprite.vert",
+  "fragment": "shaders/deferred-default-sprite.frag",
+  "includes": [
+    "shaders/deferred-default.frag"
+  ],
+  "layout": {
+    "aPosition": {
+      "size": 2,
+      "stride": 4,
+      "offset": 0
+    },
+    "aTexCoord": {
+      "size": 2,
+      "stride": 4,
+      "offset": 2
+    }
+  },
+  "uniforms": {
+    "uModelView": "model-view-matrix",
+    "uProjection": "projection-matrix",
+    "uColor": [1, 1, 1, 1]
+  },
+  "samplers": {
+    "sBase": {
+      "channel": 0,
+      "texture": "#default-albedo",
+      "filtering": "linear"
+    },
+    "sNormal": {
+      "channel": 1,
+      "texture": "#default-normal",
+      "filtering": "linear"
+    }
+  },
+  "blending": {
+    "source": "src-alpha",
+    "destination": "one-minus-src-alpha"
+  },
+  "extensions": [
+    "WEBGL_draw_buffers"
+  ]
+}

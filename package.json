@@ -1,0 +1,19 @@
+{
+  "name": "oxygen-deferred-default-shader-assets",
+  "version": "1.0.0",
+  "description": "Oxygen Game Engine Deferred Default Shader Assets",
+  "main": "index.js",
+  "author": "Patryk 'PsichiX' Budzynski <psichix@gmail.com> (http://psichix.io)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PsichiX/oxygen-deferred-default-shader-assets.git"
+  },
+  "keywords": [
+    "oxygen"
+  ],
+  "bugs": {
+    "url": "https://github.com/PsichiX/oxygen-deferred-default-shader-assets/issues"
+  },
+  "homepage": "https://github.com/PsichiX/oxygen-deferred-default-shader-assets#readme"
+}
