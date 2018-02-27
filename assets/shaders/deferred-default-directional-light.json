@@ -20,6 +20,6 @@
     "destination": "one"
   },
   "extensions": [
-    "WEBGL_draw_buffers"
+    "draw_buffers"
   ]
 }

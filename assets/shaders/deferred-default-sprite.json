@@ -38,6 +38,6 @@
     "destination": "one-minus-src-alpha"
   },
   "extensions": [
-    "WEBGL_draw_buffers"
+    "draw_buffers"
   ]
 }
