@@ -25,17 +25,17 @@
       "filtering": "linear"
     },
     "sLBufferLightEmission": {
-      "channel": 3,
+      "channel": 2,
       "texture": "#default-deferred-l-buffer-0",
       "filtering": "linear"
     },
     "sLBufferLightPath": {
-      "channel": 4,
+      "channel": 3,
       "texture": "#default-deferred-l-buffer-1",
       "filtering": "linear"
     }
   },
   "uniforms": {
-    "uMode": 3
+    "uMode": 0
   }
 }

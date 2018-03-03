@@ -1,9 +1,6 @@
 #extension GL_EXT_draw_buffers : require
 
-void writeMaterial(
-  vec4 albedo,
-  vec3 normal
-) {
+void writeMaterial(vec4 albedo, vec3 normal) {
   gl_FragData[0] = albedo;
   gl_FragData[1] = vec4(normal, albedo.a);
 }

@@ -4,13 +4,13 @@ export default class DeferredDefaultRenderer extends DeferredRenderer {
 
   static get propsTypes() {
     return {
-      shader: DeferredRenderer.shader,
-      overrideUniforms: DeferredRenderer.overrideUniforms,
-      overrideSamplers: DeferredRenderer.overrideSamplers,
-      gBufferId: DeferredRenderer.gBufferId,
-      lBufferid: DeferredRenderer.lBufferid,
-      gBufferLayer: DeferredRenderer.gBufferLayer,
-      lBufferLayer: DeferredRenderer.gBufferLayer
+      shader: DeferredRenderer.propsTypes.shader,
+      overrideUniforms: DeferredRenderer.propsTypes.overrideUniforms,
+      overrideSamplers: DeferredRenderer.propsTypes.overrideSamplers,
+      gBufferId: DeferredRenderer.propsTypes.gBufferId,
+      lBufferid: DeferredRenderer.propsTypes.lBufferid,
+      gBufferLayer: DeferredRenderer.propsTypes.gBufferLayer,
+      lBufferLayer: DeferredRenderer.propsTypes.lBufferLayer
     };
   }
 
@@ -21,6 +21,8 @@ export default class DeferredDefaultRenderer extends DeferredRenderer {
   constructor() {
     super();
 
+    this.gBufferId = '#default-deferred-g-buffer';
+    this.lBufferId = '#default-deferred-l-buffer';
     this.gBufferTargets = { float: true, mipmap: false, count: 2 };
     this.lBufferTargets = { float: true, mipmap: false, count: 2 };
   }
