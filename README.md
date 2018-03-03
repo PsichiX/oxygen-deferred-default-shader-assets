@@ -1,4 +1,4 @@
-# Oxygen Game Engine Deferred Default Standard Assets
+# Oxygen Game Engine Deferred Default Shader Assets
 
 ## Install
 ```bash
