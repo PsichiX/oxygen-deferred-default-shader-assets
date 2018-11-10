@@ -1,6 +1,6 @@
 {
   "name": "oxygen-deferred-default-shader-assets",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Oxygen Game Engine Deferred Default Shader Assets",
   "main": "src/index.js",
   "author": "Patryk 'PsichiX' Budzynski <psichix@gmail.com> (http://psichix.io)",
